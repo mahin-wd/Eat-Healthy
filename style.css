@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+section{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.half-div{
+    width: 40%;
+    padding: 25px;
+    margin-left: 7%;
+}
+
+.image img{
+    height: 250px;
+}
+
+.skip{
+    color: orange;
+}
+
+.texts{
+    margin-top: 25px;
+}
+
+.texts h1{
+    font-size: 20px;
+}
+
+.texts p{
+    font-size: 10px;
+    color: gray;
+    margin-top: 10px;
+}
+
+.texts button{
+    margin-top: 10px;
+    padding: 2px 6px;
+    background-image: linear-gradient(45deg, orange, orangered);
+    border-radius: 50px;
+    border: none;
+}
+
+.texts button a{
+    text-decoration: none;
+    color: white;
+}
+
+.texts .name{
+    font-size: 30px;
+    color: orangered;
+    margin-top: 5px;
+    font-weight: bolder;
+}
+
+.mid-part{
+    margin-top: 20px;
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.mid-part img{
+    height: 200px;
+}
+
+.recipy{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.food{
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+    width: 80%;
+}
+
+.food h2{
+    font-size: 15px;
+}
+
+.food p{
+    font-size: 10px;
+    color: grey;
+    margin-top: 5px;
+}
+
+.card-body img{
+    height: auto;
+    width: 100%;
+}
+
+.card-body{
+    align-items: center;
+    height: 280px;
+    width: 40%;
+    margin: 20px 0 0 15px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(116, 116, 116);
+}
+
+.card-body h3{
+    font-size: 20px;
+}
+.card-body p{
+    font-size: 10px;
+    color: gray;
+}
+
+
+.info{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    height: 100px;
+    width: 80%;
+    box-shadow: 0 0 5px grey;
+    border-radius: 10px;
+}
+
+.info h2{
+    margin: 30px;
+}
+
+.info span{
+    font-size: 10px;
+    color:rgb(116, 116, 116);
+}
+
+footer{
+    background-color: rgb(5, 5, 15);
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+footer h2{
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+footer span{
+    color: orangered;
+}
+
+footer h4{
+    font-size: 7px;
+    font-weight: 200;
+}
